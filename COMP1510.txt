@@ -1,0 +1,39 @@
+#separator:tab
+#html:true
+Software	"Programs and the data that programs use.<br>""The intangible counterpart to the physical hardware"""
+Graphical User Interface (GUI)<br>What is included?	"Graphics on a screen to help a user interact(interface) with a computer.<br>
+<ol>
+  <li>Windows: Used to separate the screen into work areas.</li>
+  <li>Icons: Small imaged used to represent resources, like files.</li>
+  <li>Menus/Check boxes/Radio Buttons: Provide the user with selectable options</li><li>Sliders: Allow the user to select from a range of values</li><li>Buttons: Can be ""Pushed"" with a mouse click to indicate user selection.</li>
+</ol>"
+Application	A generic term for just about any software other than the OS.
+Operating System(OS)<br>What does it do?	"The core software of a computer<br>
+<ul>
+  <li <="""" ol="""">Provides a User Interface.</li><li <="""" ol="""">Managers computer resources, such as the CPU and Main Memory</li><li <="""" ol="""">Determines when programs are allowed to run, and where they are loaded into memory</li><li <="""" ol="""">Determins how hardware devices communicate.</li>
+</ul>"
+What happens when you instruct your computer to execute a program?	"<ol>
+  <li>A copy of the program is brought in from secondary memory, and stored in main memory.</li><li>The CPU read the program instructions from Main Memory.</li><li>the CPU executes the instructions, one at a time, until the program ends.</li>
+</ol>"
+Secondary Memory	Stores software in a relatively permanent manner.<br>eg. Hard Drives, Flash Drives.
+Main Memory	The storage device that holds software while it is being processed by the CPU.<br>E.g. RAM modules.
+Input/Output (I/O) devices	Allows a human to interact with the computer<br>eg. Keyboard, mouse, trackpad, monitor.
+Central Processing Unit (CPU)	A devices that executes the individual commands of a program
+What are the key Hardware components in a computer system?	"<ul>
+  <li>Central Processing Unit (CPU)</li><li>Input/Output(I/O) devices</li><li>Main Memory</li><li>Secondary Memory</li>
+</ul>"
+Computer System	Hardware and software components working together
+Hardware Component	The physical, tangible pieces that support the computing effort.<br>eg. chips, wires, boxes/cases, keyboards, memory cards, speakers, monitors, etc.
+Program	A series of instructions that the hardware executes, one after another.
+Analog Information	Is continuous, in direct proportion to the source of the information.<br>ex. an alcohol thermometer rises in direct proportion to the temperature.
+Digital Information	Is broken down into discrete pieces and represented as numbers
+Digitized	When analog information is converted to a digital format
+Bit	a single binary digit
+Computer Architecture	How the hardware components of a computer are put together
+Bus	A group of wires carries information between components
+What hardware components make up the 'Core' of a computer?	CPU and Main Memory
+Peripherals	Almost all devices in a computer system, other than the CPU and Main Memory
+Controllers	Devices that coordinate the activities of specific peripherals.<br>Often handles much of the actual data transmission, allowing the CPU to focus on other activities.
+Data Transfer Devices	Allow information to be sent and recieved between computers.<br>ex. Network Cards, Wifi Cards
+Memory Locations	a series of small, consecutive chunks that make up the Main Memory
+Memory Address	A unique number associated with each memory locationb
