@@ -63,3 +63,19 @@ What is the cycle computer continually repeat?	"Fetch-decode-execute.<br>
 Microprocessor	The chip the CPU is constructed on. <br>Also contains ROM chips, sockets for Controllers to connect to, and the System Clock
 System Clock	A component that generates a electronic pulse at regular intervals to syncronize the events within the CPU.
 Clock Speed	The rate at which the System Clock creates electronic pulses
+Network	Two or more computers connected together so they can exchange information
+File Server	A computer on a network that is dedicated to storing programs and data.
+Point-to-point connection	Two computers connected directly through a single wire
+Network Address	A unique name given to every computer on a network.<br>Similar in concept to Memory Addresses in Main Memory.
+Packets	Large network messages that have been split up so they can be sent more efficiently across shared networks.
+Local Area Network(LAN)	A network spanning a short distance, connecting a relatively small number of computers.<br>Convenient, reliable, and easy to install.<br>Often a single room, floor, or entire building.
+Wide-Area Network(WAN)	A connection between two or more LANs.<br>One computer on each LAN is usually dedicated to communication across the WAN.
+Internet	A network of networks
+"Where did the term ""internet"" come from?"	The WAN concept of <i>Internetworking </i>- connecting many smaller networks together.
+Protocol	A set of rules that govern how two things communicate.
+TCP/IP	Two pieces of software that control how information is transmitted across the internet.<br>
+Transmisson Control Protocol(TCP)	Handles problems such as pieces of information getting lost, or arriving out of order.
+Internet Protocol(IP)	Defines how information is formatted and transferred from the source to the destination over the internet.
+IP Address	A number that uniquely identifies all comptuers connected to the internet.
+Internet Name	Another way to unqiuely identify computers on the internet; usually using characters rather than numbers.<br>eg.&nbsp;<i>hector.vt.edu</i>
+Break down hector.cs.vt.edu into its component parts.	hector: The local name of the computer<br>cs: The subdomain<br>vt.edu: the domain name
