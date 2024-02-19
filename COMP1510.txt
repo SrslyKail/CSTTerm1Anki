@@ -78,4 +78,17 @@ Transmisson Control Protocol(TCP)	Handles problems such as pieces of information
 Internet Protocol(IP)	Defines how information is formatted and transferred from the source to the destination over the internet.
 IP Address	A number that uniquely identifies all comptuers connected to the internet.
 Internet Name	Another way to unqiuely identify computers on the internet; usually using characters rather than numbers.<br>eg.&nbsp;<i>hector.vt.edu</i>
-Break down hector.cs.vt.edu into its component parts.	hector: The local name of the computer<br>cs: The subdomain<br>vt.edu: the domain name
+Break down hector.cs.vt.edu into its component parts.	hector: The local name of the computer<br>cs: The subdomain<br>vt.edu: the domain name<br>.edu: Top-level Domain
+Domain Name	The part of the URL that defines the origanization the computer belongs to.
+Subdomain	A modifier added before the domain name to allow for more organization in domains, and for multiple PCs of the same name to exist on the same network.
+Top-level Domain(TLD)	The last part of a domain name; .com, .edu, .ca, etc.<br>Indicates the type of organzation the computer belongs to.
+Domain Name System(DNS)	The software that translates the internet address to an IP address
+Domain Server	A list of all computer at a given organization, and their IP addresses.
+What happens if a local domain server doesnt have the IP address for a requested Internet Name?	It contacts aother domain server that does
+What 2 concepts are the Internet based on?	Hypertext and Hypermedia
+Hypertext	A way to organize information so that the flow of ideas was not constrained to a linear progression.
+Hypermedia	Hypertext, with graphics, audio, video, etc, added.
+Browser	A software tool that loads and format Web documents
+Web Server	A computer dedicated to providing access to Web documents
+HyperText Markup Language(HTML)	A way to format documents so web browsers can interpret them
+Uniform Resource Loader(URL)	Uniquely specifies documents and other information for a browser to obtain and display
