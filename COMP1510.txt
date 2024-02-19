@@ -35,5 +35,31 @@ What hardware components make up the 'Core' of a computer?	CPU and Main Memory
 Peripherals	Almost all devices in a computer system, other than the CPU and Main Memory
 Controllers	Devices that coordinate the activities of specific peripherals.<br>Often handles much of the actual data transmission, allowing the CPU to focus on other activities.
 Data Transfer Devices	Allow information to be sent and recieved between computers.<br>ex. Network Cards, Wifi Cards
-Memory Locations	a series of small, consecutive chunks that make up the Main Memory
+Memory Locations	a series of small, consecutive chunks that make up the Main Memory. <br>Each is 1 Byte(8 Bits) large.
 Memory Address	A unique number associated with each memory locationb
+Byte	8 bits
+Storage Capacity	The total number of bytes a Memory device can hold
+What is an advantage of a large main memory?	It allows large, or multiple smaller, programs to fun simultaneously and efficiently.<br>This is because they dont have to retrieve data from Secondary Memory as often.
+Volatile Memory	Information stored is lost when power is turned off. Main Memory is usually Volatile.
+Nonvolatile Memory	Data is stored, even if the power is turned off.<br>Secondary memory is usually Nonvolatile.
+Cache	a small, fast memory that stores the contents of the most frequently used Main Memory locations.<br>Used by the CPU to reduce average access time to instructions and data.
+Direct/Random Access Memory	Memory that allows data to be read non-sequentially.<br>eg. Hard drives, flash drives.
+Sequential Access Memory	Memory which can only allows data to be read sequentially.<br>ex. an audio tape.
+Read-Only Memory	Memory which, once written to, is generally not altered.<br>ex. Your PC BIOS(Basic Input Output System), CDs.
+What happens when you write data to a memory address?	It overwrites and destroys the information previously stored at that location.
+What happens when you read memory from a data address?	The data is read, and left unaffected.
+Control Unit	Coordinates the transfer of data between main memory and the registers.<br>Coordinates the execution of circutry in the Arithmetic\Logic Unit.
+What 3 components make up a CPU?	"<ol>
+  <li>The Control Unit</li><li>The Registers</li><li>The Arithmetic/Logic Unit</li>
+</ol>"
+Registers	Provide a small amount of memory on the CPU itself. <br>Are the smallest, fastest cache in the system.
+Arithmetic/Logic Unit	Performs calculations and makes decisions.
+What are the 2 reserved registers we learned? What do they do?	Instruction Register: Holds the current instruction being executed.<br>Program Counter: Holds the memory address of the next instruction to be executed.
+What is the main principle of von Neumann Architecture?	Storing both program instructions and data together in Main Memory.
+What is the cycle computer continually repeat?	"Fetch-decode-execute.<br>
+<ol>
+  <li><b>Fetch</b>&nbsp;an instruction from main memory, at the address stored in the Program Counter.<br></li><li>the program counter is incremented to prepare for the next cycle</li><li>The instruction is&nbsp;<b>Decoded</b>&nbsp;to determine how to carry it out.</li><li>The control unit&nbsp;<b>Executes</b>&nbsp;the instruction by activating the correct circuitry.</li>
+</ol>"
+Microprocessor	The chip the CPU is constructed on. <br>Also contains ROM chips, sockets for Controllers to connect to, and the System Clock
+System Clock	A component that generates a electronic pulse at regular intervals to syncronize the events within the CPU.
+Clock Speed	The rate at which the System Clock creates electronic pulses
