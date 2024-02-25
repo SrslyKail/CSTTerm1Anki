@@ -1,94 +1,148 @@
 #separator:tab
 #html:true
-Software	"Programs and the data that programs use.<br>""The intangible counterpart to the physical hardware"""
+#tags column:3
+In the Java programming language a program is made up of	A program is made up of one or more classes	C.2
+In the Java programming language a class contains 	A class is made up of one or more methods	C.2
+In the Java programming language a methods contains 	A method is made up of program statements	C.2
+A Java application always contains a method with a header 	A Java application must always contain a _main_ method	C.2
+Why is it important to include comments?	Comments should be included to explain the purpose of the program and describe processing steps / facilitate human comprehension	C.2
+Do comments affect how a program works?	No, comments are ignored by the compiler	C.2
+Identifiers are all the words within a program, true or false	True, identifiers are all the words within a program	C.2
+What can Java identifiers be made up of?	 Java identifiers can only be made up of letters, digits, underscore, dollar sign	C.2
+Can identifiers begin with a digit	Identifiers cannot begin with a digit	C.2
+Is Java case sensitive	Yes, Java is case sensitive, e.g. Total, total, and TOTAL are different identifiers	C.2
+By convention, what case style is used for class name identifiers	By convention, title case / first letter in upper case is used for class name identifiers	C.2
+By convention, what case style is used for constants identifiers 	By convention, upper case / allcaps is used for constants identifiers	C.2
+Is println an identifier	Yes	C.2
+Reserved words are used for what and can they be used as identifiers	Reserved words are used for the structure of the program, they cannot be used as identifiers	C.2
+Is _New_ a reserved word	_New_ is not a reserved word since Java is case sensitive. _new_ is a reserved word	C.2
+What are the four programming language levels?	The four programming language levels are (for CPU) machine language, and (for humans) assembly language, high-level language, fourth-generation language	C.2
+What programming language do CPUs execute	CPUs execute machine language	C.2
+What is a compiler	A compiler is a software tool that translates source code into a specific target language	C.2
+Does a program need to be translated before it can be executed and if so, to what language	A program must be translated into machine language before it can be executed	C.2
+What is a variable	Variable is a name for a location in memory that holds a value	C.2
+What does it mean to declare a variable	A variable declaration specifies the variable's name and the type of information it will hold	C.2
+What does it mean to initialize a variable	Giving a variable an initial value at declaration is called variable initialization	C.2
+Can you place a var in the place of the type? (var sum = 0)	Yes, the compiler will infer the variable's type from the initial value	C.2
+What is assignment in terms of variables	Assigning changes/overwrites a value of a variable (sum = 55; is an assignment statement)	C.2
+What is the assignment operator	The = sign	C.2
+What is a constant?	A constant is an identifier that holds the same value during its entire existence	C.2
+Is constant a variable	No (the name implies)	C.2
+How to declare a constant in Java	To declare a constant in Java we use the static final modifier	C.2
+List three reasons for why constants should be used	1. The give meaning to otherwise unclear literal values (Using MAX_LOAD instead of the literal 250)<br>2. They facilitate program maitenance (If a constant is used in multiple places, its value need only be set in one place)<br>3. They formally establish that a value should not change (to avoid inadvertent errors by other programmers)	C.2
+What are the four primitive integer types	byte, short, int, long are the primitive data types to represent integer	C.2
+What are the two primitive floating point numbers types	float, double are the primitive data types to represent floating point numbers	C.2
+What is the difference between the numeric primitive data types?	Their size and the values they can store. byte stores 8 bits, short stores 16 bits, etc. float stores 32 bits and double stores (double of float) 64 bits	C.2
+What is the primitive character type	char is the primitive data type to represent characters	C.2
+What is the primitive boolean type	boolean is the primitive data type to represent booleans	C.2
+Can floating point numbers use scientific notation	Yes, floating points number can use scientific notation using E or e followed by the exponent	C.2
+How to declare a char variable	A char variable are delimited by single quotes, i.e. char terminator = ';'	C.2
+What character set do char variables store (ASCII or Unicode) in Java	Java stores char variables in the Unicode character set	C.2
+What does a boolean value represent	A boolean value represent a true or false condition.	C.2
+Can you assign the value 1 to a boolean variable?	No, the reserved words true and false are the only valid values for a boolean type	C.2
+What is an expression in Java?	An expression is a combination of one or more operators and operands	C.2
+What are the arithmetic operators used in arithmetic expressions?	Arithmetic expressions use + for addition, - for subtraction, * for multiplication, / for division, and % for remainder	C.2
+If only one of the operands in an arithmetic expression is a floating point value, will the result be changed to a floating point value or not?	If one or both operands are floating point value, the result will be a floating point value, promoting the other operand (integer) into a floating point value	C.2
+How does integer division behave when a remainder is present	Integer division always truncates towards zero (14/3=4)	C.2
+How is the integer remainder calculated?	Integer remainder follows the rule a=b*q+r, where q=a/b and r=a%b	C.2
+Does data conversion from one type to another change the type of a variable or the value that's stored in it?	Data conversions do not change the type of a variable or the value that's store in it, they only convert a value as a part of a computation	C.2
+What is a widening data conversion?	Widening data conversion is converting from a small data type (e.g. short) to a larger one (e.g int)	C.2
+What is a narrowing data conversion?	Narrowing data conversion is converting from a large data type (e.g. double) to a smaller one (e.g. float)	C.2
+What are the three ways data conversion can occur in Java?	In Java, data conversions can occur in assignment conversion, promoting, and casting	C.2
+When does assignment conversion occur?	Assignment conversion occurs when a value of one type is assgined to a variable of another	C.2
+Can narrowing data conversion happen via assignment?	No, only widening conversions can happen via assignment	C.2
+When does promotion occur in terms of data conversion?	Promotion happens automatically when operators in expressions convert their operands (int = double/int)	C.2
+What conversion technique can be used for both widening data conversions and narrowing?	Both widening and narrowing conversions can be accomplished by casting a value (float = (float) int/int)	C.2
+What does the _new_ operator do	The _new_ operator creates the scanner object	C.2
+Software	"Programs and the data that programs use.<br>""The intangible counterpart to the physical hardware"""	C.1
 Graphical User Interface (GUI)<br>What is included?	"Graphics on a screen to help a user interact(interface) with a computer.<br>
 <ol>
   <li>Windows: Used to separate the screen into work areas.</li>
   <li>Icons: Small imaged used to represent resources, like files.</li>
   <li>Menus/Check boxes/Radio Buttons: Provide the user with selectable options</li><li>Sliders: Allow the user to select from a range of values</li><li>Buttons: Can be ""Pushed"" with a mouse click to indicate user selection.</li>
-</ol>"
-Application	A generic term for just about any software other than the OS.
+</ol>"	C.1
+Application	A generic term for just about any software other than the OS.	C.1
 Operating System(OS)<br>What does it do?	"The core software of a computer<br>
 <ul>
   <li <="""" ol="""">Provides a User Interface.</li><li <="""" ol="""">Managers computer resources, such as the CPU and Main Memory</li><li <="""" ol="""">Determines when programs are allowed to run, and where they are loaded into memory</li><li <="""" ol="""">Determins how hardware devices communicate.</li>
-</ul>"
+</ul>"	C.1
 What happens when you instruct your computer to execute a program?	"<ol>
   <li>A copy of the program is brought in from secondary memory, and stored in main memory.</li><li>The CPU read the program instructions from Main Memory.</li><li>the CPU executes the instructions, one at a time, until the program ends.</li>
-</ol>"
-Secondary Memory	Stores software in a relatively permanent manner.<br>eg. Hard Drives, Flash Drives.
-Main Memory	The storage device that holds software while it is being processed by the CPU.<br>E.g. RAM modules.
-Input/Output (I/O) devices	Allows a human to interact with the computer<br>eg. Keyboard, mouse, trackpad, monitor.
-Central Processing Unit (CPU)	A devices that executes the individual commands of a program
+</ol>"	C.1
+Secondary Memory	Stores software in a relatively permanent manner.<br>eg. Hard Drives, Flash Drives.	C.1
+Main Memory	The storage device that holds software while it is being processed by the CPU.<br>E.g. RAM modules.	C.1
+Input/Output (I/O) devices	Allows a human to interact with the computer<br>eg. Keyboard, mouse, trackpad, monitor.	C.1
+Central Processing Unit (CPU)	A devices that executes the individual commands of a program	C.1
 What are the key Hardware components in a computer system?	"<ul>
   <li>Central Processing Unit (CPU)</li><li>Input/Output(I/O) devices</li><li>Main Memory</li><li>Secondary Memory</li>
-</ul>"
-Computer System	Hardware and software components working together
-Hardware Component	The physical, tangible pieces that support the computing effort.<br>eg. chips, wires, boxes/cases, keyboards, memory cards, speakers, monitors, etc.
-Program	A series of instructions that the hardware executes, one after another.
-Analog Information	Is continuous, in direct proportion to the source of the information.<br>ex. an alcohol thermometer rises in direct proportion to the temperature.
-Digital Information	Is broken down into discrete pieces and represented as numbers
-Digitized	When analog information is converted to a digital format
-Bit	a single binary digit
-Computer Architecture	How the hardware components of a computer are put together
-Bus	A group of wires carries information between components
-What hardware components make up the 'Core' of a computer?	CPU and Main Memory
-Peripherals	Almost all devices in a computer system, other than the CPU and Main Memory
-Controllers	Devices that coordinate the activities of specific peripherals.<br>Often handles much of the actual data transmission, allowing the CPU to focus on other activities.
-Data Transfer Devices	Allow information to be sent and recieved between computers.<br>ex. Network Cards, Wifi Cards
-Memory Locations	a series of small, consecutive chunks that make up the Main Memory. <br>Each is 1 Byte(8 Bits) large.
-Memory Address	A unique number associated with each memory locationb
-Byte	8 bits
-Storage Capacity	The total number of bytes a Memory device can hold
-What is an advantage of a large main memory?	It allows large, or multiple smaller, programs to fun simultaneously and efficiently.<br>This is because they dont have to retrieve data from Secondary Memory as often.
-Volatile Memory	Information stored is lost when power is turned off. Main Memory is usually Volatile.
-Nonvolatile Memory	Data is stored, even if the power is turned off.<br>Secondary memory is usually Nonvolatile.
-Cache	a small, fast memory that stores the contents of the most frequently used Main Memory locations.<br>Used by the CPU to reduce average access time to instructions and data.
-Direct/Random Access Memory	Memory that allows data to be read non-sequentially.<br>eg. Hard drives, flash drives.
-Sequential Access Memory	Memory which can only allows data to be read sequentially.<br>ex. an audio tape.
-Read-Only Memory	Memory which, once written to, is generally not altered.<br>ex. Your PC BIOS(Basic Input Output System), CDs.
-What happens when you write data to a memory address?	It overwrites and destroys the information previously stored at that location.
-What happens when you read memory from a data address?	The data is read, and left unaffected.
-Control Unit	Coordinates the transfer of data between main memory and the registers.<br>Coordinates the execution of circutry in the Arithmetic\Logic Unit.
+</ul>"	C.1
+Computer System	Hardware and software components working together	C.1
+Hardware Component	The physical, tangible pieces that support the computing effort.<br>eg. chips, wires, boxes/cases, keyboards, memory cards, speakers, monitors, etc.	C.1
+Program	A series of instructions that the hardware executes, one after another.	C.1
+Analog Information	Is continuous, in direct proportion to the source of the information.<br>ex. an alcohol thermometer rises in direct proportion to the temperature.	C.1
+Digital Information	Is broken down into discrete pieces and represented as numbers	C.1
+Digitized	When analog information is converted to a digital format	C.1
+Bit	a single binary digit	C.1
+Computer Architecture	How the hardware components of a computer are put together	C.1
+Bus	A group of wires carries information between components	C.1
+What hardware components make up the 'Core' of a computer?	CPU and Main Memory	C.1
+Peripherals	Almost all devices in a computer system, other than the CPU and Main Memory	C.1
+Controllers	Devices that coordinate the activities of specific peripherals.<br>Often handles much of the actual data transmission, allowing the CPU to focus on other activities.	C.1
+Data Transfer Devices	Allow information to be sent and recieved between computers.<br>ex. Network Cards, Wifi Cards	C.1
+Memory Locations	a series of small, consecutive chunks that make up the Main Memory. <br>Each is 1 Byte(8 Bits) large.	C.1
+Memory Address	A unique number associated with each memory locationb	C.1
+Byte	8 bits	C.1
+Storage Capacity	The total number of bytes a Memory device can hold	C.1
+What is an advantage of a large main memory?	It allows large, or multiple smaller, programs to fun simultaneously and efficiently.<br>This is because they dont have to retrieve data from Secondary Memory as often.	C.1
+Volatile Memory	Information stored is lost when power is turned off. Main Memory is usually Volatile.	C.1
+Nonvolatile Memory	Data is stored, even if the power is turned off.<br>Secondary memory is usually Nonvolatile.	C.1
+Cache	a small, fast memory that stores the contents of the most frequently used Main Memory locations.<br>Used by the CPU to reduce average access time to instructions and data.	C.1
+Direct/Random Access Memory	Memory that allows data to be read non-sequentially.<br>eg. Hard drives, flash drives.	C.1
+Sequential Access Memory	Memory which can only allows data to be read sequentially.<br>ex. an audio tape.	C.1
+Read-Only Memory	Memory which, once written to, is generally not altered.<br>ex. Your PC BIOS(Basic Input Output System), CDs.	C.1
+What happens when you write data to a memory address?	It overwrites and destroys the information previously stored at that location.	C.1
+What happens when you read memory from a data address?	The data is read, and left unaffected.	C.1
+Control Unit	Coordinates the transfer of data between main memory and the registers.<br>Coordinates the execution of circutry in the Arithmetic\Logic Unit.	C.1
 What 3 components make up a CPU?	"<ol>
   <li>The Control Unit</li><li>The Registers</li><li>The Arithmetic/Logic Unit</li>
-</ol>"
-Registers	Provide a small amount of memory on the CPU itself. <br>Are the smallest, fastest cache in the system.
-Arithmetic/Logic Unit	Performs calculations and makes decisions.
-What are the 2 reserved registers we learned? What do they do?	Instruction Register: Holds the current instruction being executed.<br>Program Counter: Holds the memory address of the next instruction to be executed.
-What is the main principle of von Neumann Architecture?	Storing both program instructions and data together in Main Memory.
+</ol>"	C.1
+Registers	Provide a small amount of memory on the CPU itself. <br>Are the smallest, fastest cache in the system.	C.1
+Arithmetic/Logic Unit	Performs calculations and makes decisions.	C.1
+What are the 2 reserved registers we learned? What do they do?	Instruction Register: Holds the current instruction being executed.<br>Program Counter: Holds the memory address of the next instruction to be executed.	C.1
+What is the main principle of von Neumann Architecture?	Storing both program instructions and data together in Main Memory.	C.1
 What is the cycle computer continually repeat?	"Fetch-decode-execute.<br>
 <ol>
   <li><b>Fetch</b>&nbsp;an instruction from main memory, at the address stored in the Program Counter.<br></li><li>the program counter is incremented to prepare for the next cycle</li><li>The instruction is&nbsp;<b>Decoded</b>&nbsp;to determine how to carry it out.</li><li>The control unit&nbsp;<b>Executes</b>&nbsp;the instruction by activating the correct circuitry.</li>
-</ol>"
-Microprocessor	The chip the CPU is constructed on. <br>Also contains ROM chips, sockets for Controllers to connect to, and the System Clock
-System Clock	A component that generates a electronic pulse at regular intervals to syncronize the events within the CPU.
-Clock Speed	The rate at which the System Clock creates electronic pulses
-Network	Two or more computers connected together so they can exchange information
-File Server	A computer on a network that is dedicated to storing programs and data.
-Point-to-point connection	Two computers connected directly through a single wire
-Network Address	A unique name given to every computer on a network.<br>Similar in concept to Memory Addresses in Main Memory.
-Packets	Large network messages that have been split up so they can be sent more efficiently across shared networks.
-Local Area Network(LAN)	A network spanning a short distance, connecting a relatively small number of computers.<br>Convenient, reliable, and easy to install.<br>Often a single room, floor, or entire building.
-Wide-Area Network(WAN)	A connection between two or more LANs.<br>One computer on each LAN is usually dedicated to communication across the WAN.
-Internet	A network of networks
-"Where did the term ""internet"" come from?"	The WAN concept of <i>Internetworking </i>- connecting many smaller networks together.
-Protocol	A set of rules that govern how two things communicate.
-TCP/IP	Two pieces of software that control how information is transmitted across the internet.<br>
-Transmisson Control Protocol(TCP)	Handles problems such as pieces of information getting lost, or arriving out of order.
-Internet Protocol(IP)	Defines how information is formatted and transferred from the source to the destination over the internet.
-IP Address	A number that uniquely identifies all comptuers connected to the internet.
-Internet Name	Another way to unqiuely identify computers on the internet; usually using characters rather than numbers.<br>eg.&nbsp;<i>hector.vt.edu</i>
-Break down hector.cs.vt.edu into its component parts.	hector: The local name of the computer<br>cs: The subdomain<br>vt.edu: the domain name<br>.edu: Top-level Domain
-Domain Name	The part of the URL that defines the origanization the computer belongs to.
-Subdomain	A modifier added before the domain name to allow for more organization in domains, and for multiple PCs of the same name to exist on the same network.
-Top-level Domain(TLD)	The last part of a domain name; .com, .edu, .ca, etc.<br>Indicates the type of organzation the computer belongs to.
-Domain Name System(DNS)	The software that translates the internet address to an IP address
-Domain Server	A list of all computer at a given organization, and their IP addresses.
-What happens if a local domain server doesnt have the IP address for a requested Internet Name?	It contacts aother domain server that does
-What 2 concepts are the Internet based on?	Hypertext and Hypermedia
-Hypertext	A way to organize information so that the flow of ideas was not constrained to a linear progression.
-Hypermedia	Hypertext, with graphics, audio, video, etc, added.
-Browser	A software tool that loads and format Web documents
-Web Server	A computer dedicated to providing access to Web documents
-HyperText Markup Language(HTML)	A way to format documents so web browsers can interpret them
-Uniform Resource Loader(URL)	Uniquely specifies documents and other information for a browser to obtain and display
+</ol>"	C.1
+Microprocessor	The chip the CPU is constructed on. <br>Also contains ROM chips, sockets for Controllers to connect to, and the System Clock	C.1
+System Clock	A component that generates a electronic pulse at regular intervals to syncronize the events within the CPU.	C.1
+Clock Speed	The rate at which the System Clock creates electronic pulses	C.1
+Network	Two or more computers connected together so they can exchange information	C.1
+File Server	A computer on a network that is dedicated to storing programs and data.	C.1
+Point-to-point connection	Two computers connected directly through a single wire	C.1
+Network Address	A unique name given to every computer on a network.<br>Similar in concept to Memory Addresses in Main Memory.	C.1
+Packets	Large network messages that have been split up so they can be sent more efficiently across shared networks.	C.1
+Local Area Network(LAN)	A network spanning a short distance, connecting a relatively small number of computers.<br>Convenient, reliable, and easy to install.<br>Often a single room, floor, or entire building.	C.1
+Wide-Area Network(WAN)	A connection between two or more LANs.<br>One computer on each LAN is usually dedicated to communication across the WAN.	C.1
+Internet	A network of networks	C.1
+"Where did the term ""internet"" come from?"	The WAN concept of <i>Internetworking </i>- connecting many smaller networks together.	C.1
+Protocol	A set of rules that govern how two things communicate.	C.1
+TCP/IP	Two pieces of software that control how information is transmitted across the internet.<br>	C.1
+Transmisson Control Protocol(TCP)	Handles problems such as pieces of information getting lost, or arriving out of order.	C.1
+Internet Protocol(IP)	Defines how information is formatted and transferred from the source to the destination over the internet.	C.1
+IP Address	A number that uniquely identifies all comptuers connected to the internet.	C.1
+Internet Name	Another way to unqiuely identify computers on the internet; usually using characters rather than numbers.<br>eg.&nbsp;<i>hector.vt.edu</i>	C.1
+Break down hector.cs.vt.edu into its component parts.	hector: The local name of the computer<br>cs: The subdomain<br>vt.edu: the domain name<br>.edu: Top-level Domain	C.1
+Domain Name	The part of the URL that defines the origanization the computer belongs to.	C.1
+Subdomain	A modifier added before the domain name to allow for more organization in domains, and for multiple PCs of the same name to exist on the same network.	C.1
+Top-level Domain(TLD)	The last part of a domain name; .com, .edu, .ca, etc.<br>Indicates the type of organzation the computer belongs to.	C.1
+Domain Name System(DNS)	The software that translates the internet address to an IP address	C.1
+Domain Server	A list of all computer at a given organization, and their IP addresses.	C.1
+What happens if a local domain server doesnt have the IP address for a requested Internet Name?	It contacts aother domain server that does	C.1
+What 2 concepts are the Internet based on?	Hypertext and Hypermedia	C.1
+Hypertext	A way to organize information so that the flow of ideas was not constrained to a linear progression.	C.1
+Hypermedia	Hypertext, with graphics, audio, video, etc, added.	C.1
+Browser	A software tool that loads and format Web documents	C.1
+Web Server	A computer dedicated to providing access to Web documents	C.1
+HyperText Markup Language(HTML)	A way to format documents so web browsers can interpret them	C.1
+Uniform Resource Loader(URL)	Uniquely specifies documents and other information for a browser to obtain and display	C.1
