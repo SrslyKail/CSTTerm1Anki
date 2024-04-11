@@ -4,3 +4,7 @@
 #columns: Question; Answer; Tags
 #deck: COMP1712 final
 Once we have an ERD, we can be sure we have a good database structure;  False; ch.07
+Our goal with normalization is to completely eliminate redundancy; False; ch.07
+Some redundancies in a relational database is necessary; True; ch.07
+Foreign keys in a relational database is an example of; necessary redundancy; ch.07
+<img src="./ch7q5.png"></img><br/>The following tables shows; not a relational table; ch.07
