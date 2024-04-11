@@ -1,0 +1,6 @@
+#separator:Semicolon
+#html:true
+#tags column:3
+#columns: Question; Answer; Tags
+#deck: COMP1712 final
+Once we have an ERD, we can be sure we have a good database structure;  False; ch.07
