@@ -35,7 +35,7 @@ Building a system inhouse builds technical skill and functional knowledge that t
 In the analysis phase, architecture decisions are made in "hardware and software specifications"; false they are in the design phase; m.08
 The system inputs and outputs what to show how the systems will be navigated; roadmap; m.08
 Outsourcing is used when; The business need is not the core of the business; m.08
-In a custom software case; all parts of the system need to be completely customized and scripted to the companys specifications including ancillary software; false; m.08
+In a custom software case, all parts of the system need to be completely customized and scripted to the companys specifications including ancillary software; false; m.08
 #
 #------------------------------------- Module #9 ----------------------------------
 The major architectural components of a system is; hardware and software; m.09
