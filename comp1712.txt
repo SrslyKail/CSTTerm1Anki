@@ -3,8 +3,65 @@
 #tags column:3
 #columns: Question; Answer; Tags
 #deck: COMP1712 final
-Once we have an ERD, we can be sure we have a good database structure;  False; ch.07
-Our goal with normalization is to completely eliminate redundancy; False; ch.07
-Some redundancies in a relational database is necessary; True; ch.07
-Foreign keys in a relational database is an example of; necessary redundancy; ch.07
-<img src="./ch7q5.png"></img><br/>The following tables shows; not a relational table; ch.07
+#
+#----------------------------------------------------------------------------------
+#-------------------------------------- MODULES -----------------------------------
+#----------------------------------------------------------------------------------
+#
+#------------------------------------- Module #7 ----------------------------------
+Once we have an ERD, we can be sure we have a good database structure;  False; m.07
+Our goal with normalization is to completely eliminate redundancy; False; m.07
+Some redundancies in a relational database is necessary; True; m.07
+Foreign keys in a relational database is an example of; necessary redundancy; m.07
+<img src="./ch7q5.png"></img><br/>The following tables shows; not a relational table; m.07
+In a relational table, when we say "attribute A defines B", it means; There is only one value for B for any given value of A; m.07
+In a functional dependence, the DETERMINANT is always a single attribute; false; m.07
+In a functional dependence, the DEPENDENT is always a single attribute; false; m.07
+Relational tables that have a single attribute primary key are immediately in 2NF; true; m.07
+Partial dependency is a form of functional dependency; true; m.07
+A transitive dependency is a form of partial dependency; false; m.07
+<img src="./ch7q12.png"></img><br/>How many non-prime attributes do you see in the following diagram?; 5; m.07
+A table in</br>2NF is also in</br>1NF is also in</br>2NF is also in; 1NF<br/>1NF<br/>2NF; m.07
+<img src="./ch7q14.png"></img><br/>The following table is in 1NF, if we normalize this into 2NF how many would we have in total?; 3; m.07
+<img src="./ch7q15.png"></img><br/>The following table is in 1NF, if we normalize this into 2NF how many would we have in total?; 3; m.07
+#
+#------------------------------------- Module #8 ----------------------------------
+If the expertise needed to build a system is not readily available, it is not a good reason to buy a software system; false; m.08
+During the design phase, the project team carefully considers the nonfunctional business requirements(performance, cultural and political); true; m.08
+Custom development is used when; the business is unique; m.08
+Outsourcing requires at least inhouse resources; true; m.08
+Another name for custom development; In-house development; m.08
+Building a system inhouse builds technical skill and functional knowledge that they wouldn't want to release to the public; true; m.08
+In the analysis phase, architecture decisions are made in "hardware and software specifications"; false they are in the design phase; m.08
+The system inputs and outputs what to show how the systems will be navigated; roadmap; m.08
+Outsourcing is used when; The business need is not the core of the business; m.08
+In a custom software case; all parts of the system need to be completely customized and scripted to the companys specifications including ancillary software; false; m.08
+#
+#------------------------------------- Module #9 ----------------------------------
+The major architectural components of a system is; hardware and software; m.09
+Maintability requirements can be defined as; expected business changes to which the system should be able to adapt; m.09
+How many advantages are client-server architecture known for; 4; m.09
+Software systems can be divided into how many basic functions; 4; m.09
+System integration requirements can be defined as; the extent to which the system will operate with other systems; m.09
+Forms of network connections include; atm and dsl; m.09
+A n tiered architecture is distinguished by; the number of specialized server computers; m.09
+Access control requirements would be like; customer service reps can modify customer files but not delete them; m.09
+The cost of development is associated with client based systems is; low; m.09
+What are the 3 advantages of client server; 1. they are scalable <br/> 2. they can support different types of systems <br/> 3. It is easy to separate different logic <br/> 4. Reliability; m.09
+#
+#------------------------------------- Module #10 ----------------------------------
+Interface Evaluation techniques include; interative, walk-through, heuristic, and formal usability testing; m.10
+Research shows that in an ideal world a menu should; contain 5-7 items, and submenus should have no fewer than 5 items; m.10
+Headings should be what size? main text? and subheadings?; headings - 14 <br/> main text - 12 <br/> subheadings - 12 <br/>; m.10
+When designing navigation controls, things that are commonly assumed are; users have not read the manual, they have not attended training, do not have help readily on hand, and they have not read the documentation; m.10
+One study suggests that some variation would be appropriate in user interface design, why?; because if all forms look the same, it would be confusing to others; m.10
+What is used when all combinations of data is valid?; consistencty check; m.10
+If the density on a single page is too high what happens; it might not be as effective because a two-page (less dense) is preferred; m.10
+Whats a second level menu on a menu bar called; drop-down; m.10
+What defines the basic components on an interface and how they work together to provide functionality to users; interface STRUCTURE design; m.10
+To prevent mistakes its best to; label commands and actions appropriately, limit choices, gray out commands that cant be used, and create secondary menus when some choices are similar; m.10
+#
+#----------------------------------------------------------------------------------
+#--------------------------------------- VOCAB ------------------------------------
+#----------------------------------------------------------------------------------
+#
