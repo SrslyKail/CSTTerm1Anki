@@ -8,7 +8,7 @@
 #-------------------------------------- MODULES -----------------------------------
 #----------------------------------------------------------------------------------
 #
-#------------------------------------- Module #7 Normalization ----------------------------------
+#------------------------------------- Module #7 Normalization ----------------------------------------
 Funcional dependance, 18 18 18 18 18 AmberWave AmberWave AmberWave AmberWave AmberWave AmberWave etc; with the DETERMINANT project_num, we can find the proj_name; m.07
 emp_num -> (emp_name, job_class, charge_hour); this is an example of a dependant relationship; m.07
 2nf; removes partial dependancies; m.07
@@ -42,6 +42,7 @@ In the analysis phase, architecture decisions are made in "hardware and software
 The system inputs and outputs what to show how the systems will be navigated; roadmap; m.08
 Outsourcing is used when; The business need is not the core of the business; m.08
 In a custom software case, all parts of the system need to be completely customized and scripted to the companys specifications including ancillary software; false; m.08
+Risks of Outsourcing; compromise confidential information; m.08
 #
 #------------------------------------- Module #9  Architecture Design ----------------------------------
 The major architectural components of a system is; hardware and software; m.09
@@ -83,6 +84,10 @@ First step in a "Physical data flow"; add implementation references; m.11
 Transaction structure contains a control module that helps call sub modules that frequently occur; true; m.11
 Human machine boundary is part of the human computer interface; false; m.11
 Its best to build a structure chart using; high cohesion; m.11
+Logical DFD; for business views of the system, no implementation details; m.11
+Physical DFDs; systems view, technical view of the system, references to the tech side, the format of information - like where are all the data flows etc. human interaction - like where is human intereaction required.; m.11
+Good program; easy to maintain, modular, and flexible; m.11
+Library modules; defined by two lines on the side; m.11
 #
 #------------------------------------- Module #12 Data Storage Design -----------------------------------
 One process when considering data storage design is moving physical data to logical models; false; m.12
@@ -90,3 +95,19 @@ a relational database is used in; data warehousing or multidimentional databases
 when converting a logical erd in to a physical data model; you dont need to specify primary and international keys; m.12
 even if you convert a database into 3NF its best practice to "denormalize" when; you want to access the data faster since the data is more connected; m.12
 The two ways to optimize a data storage is; storage Efficiency, and speed of access; m.12
+Decision support systems use; data warehouses, data marts, aggregated data, and multidimentional databases; m.12
+Multidimensional Databases; used for datawarehousing, can be explored or aggregated quickly; m.12
+Two types of data storage; files, and databases; m.12
+Types of files; master files - store core information, look-up files - use for validation, transaction files - holds transactions, used for update master data, audit files - keep before and after images of data, history files - holds past transactions; m.12
+Databases; is a collection of files created by the database management system, many types: relational, multidem, nosql and obj etc etc; m.12
+Relational databases; has a primary key, other tables have foreign keys; referential integrety; m.12
+Concept for planning good performance; volumetrics; m.12
+in a checkout counter, when they scan a barcode; they use the transaction processing system; m.12
+Audit files; store the before and after of images; m.12
+Decision making systems just need; read data; m.12
+Indexing; similar to a library catalogue, list of points to access quickly; m.12
+1 to M relationship; M has the foreign key, and 1 has the primary key; m.12
+Referential integrity; ever reference of an entity has to be valid; m.12
+Foreign key; has to be null or valid; m.12
+Nulls; example of poor design, avoided as much as possible; m.12
+M to N relationship (many to many), a student and a class; accessed though a bridge entity
