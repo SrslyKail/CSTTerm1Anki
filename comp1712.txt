@@ -8,7 +8,11 @@
 #-------------------------------------- MODULES -----------------------------------
 #----------------------------------------------------------------------------------
 #
-#------------------------------------- Module #7 ----------------------------------
+#------------------------------------- Module #7 Normalization ----------------------------------
+Funcional dependance, 18 18 18 18 18 AmberWave AmberWave AmberWave AmberWave AmberWave AmberWave etc; with the DETERMINANT project_num, we can find the proj_name; m.07
+emp_num -> (emp_name, job_class, charge_hour); this is an example of a dependant relationship; m.07
+2nf; removes partial dependancies; m.07
+3nf; removes transitive dependancies; m.07
 Once we have an ERD, we can be sure we have a good database structure;  False; m.07
 Our goal with normalization is to completely eliminate redundancy; False; m.07
 Some redundancies in a relational database is necessary; True; m.07
@@ -24,8 +28,10 @@ A transitive dependency is a form of partial dependency; false; m.07
 A table in</br>2NF is also in</br>1NF is also in</br>2NF is also in; 1NF<br/>1NF<br/>2NF; m.07
 <img src="./ch7q14.png"></img><br/>The following table is in 1NF, if we normalize this into 2NF how many would we have in total?; 3; m.07
 <img src="./ch7q15.png"></img><br/>The following table is in 1NF, if we normalize this into 2NF how many would we have in total?; 3; m.07
+A table is in 1 Normal Form; if it does not contain attributes that have multiple values for a single instance; m.07
+
 #
-#------------------------------------- Module #8 ----------------------------------
+#------------------------------------- Module #8 Design Strategy ---------------------------------------
 If the expertise needed to build a system is not readily available, it is not a good reason to buy a software system; false; m.08
 During the design phase, the project team carefully considers the nonfunctional business requirements(performance, cultural and political); true; m.08
 Custom development is used when; the business is unique; m.08
@@ -37,7 +43,7 @@ The system inputs and outputs what to show how the systems will be navigated; ro
 Outsourcing is used when; The business need is not the core of the business; m.08
 In a custom software case, all parts of the system need to be completely customized and scripted to the companys specifications including ancillary software; false; m.08
 #
-#------------------------------------- Module #9 ----------------------------------
+#------------------------------------- Module #9  Architecture Design ----------------------------------
 The major architectural components of a system is; hardware and software; m.09
 Maintability requirements can be defined as; expected business changes to which the system should be able to adapt; m.09
 How many advantages are client-server architecture known for; 4; m.09
@@ -49,7 +55,14 @@ Access control requirements would be like; customer service reps can modify cust
 The cost of development is associated with client based systems is; low; m.09
 What are the 3 advantages of client server; 1. they are scalable <br/> 2. they can support different types of systems <br/> 3. It is easy to separate different logic <br/> 4. Reliability; m.09
 #
-#------------------------------------- Module #10 ----------------------------------
+#------------------------------------- Module #10 Interface Design -------------------------------------
+Heuristic eval; trial and error experiementing learning; m.10
+Walk-through explaination; the project team presents the prototype; m.10
+Effectiveness; does the right thing, gets things done; m.10
+Efficiency; does it with minimal effort; m.10
+Satisfaction; makes u feel good and happy; m.10
+Transparent interface; interface that users don't even notice, does what they expect, intuitive and invisible. does not distract the user.; m.10
+usability; Effectiveness, Efficiency, and satisfaction; m.10
 Interface Evaluation techniques include; interative, walk-through, heuristic, and formal usability testing; m.10
 Research shows that in an ideal world a menu should; contain 5-7 items, and submenus should have no fewer than 5 items; m.10
 Headings should be what size? main text? and subheadings?; headings - 14 <br/> main text - 12 <br/> subheadings - 12 <br/>; m.10
@@ -61,8 +74,19 @@ Whats a second level menu on a menu bar called; drop-down; m.10
 What defines the basic components on an interface and how they work together to provide functionality to users; interface STRUCTURE design; m.10
 To prevent mistakes its best to; label commands and actions appropriately, limit choices, gray out commands that cant be used, and create secondary menus when some choices are similar; m.10
 #
-#----------------------------------------------------------------------------------
-#--------------------------------------- VOCAB ------------------------------------
-#----------------------------------------------------------------------------------
+#------------------------------------- Module #11 Program Design ----------------------------------------
+Structure charts show sequence; true; m.11
+Many logical DFDs will be changed into "ecrypted word processing documents" when physical DFDs are developed; m.11
+Structure charts are created with one attempt; false; m.11
+Analyists build these into structure charts; sequence, selection, and iteration; m.11
+First step in a "Physical data flow"; add implementation references; m.11
+Transaction structure contains a control module that helps call sub modules that frequently occur; true; m.11
+Human machine boundary is part of the human computer interface; false; m.11
+Its best to build a structure chart using; high cohesion; m.11
 #
-Test vocab layout; Vocab definition; v.07
+#------------------------------------- Module #12 Data Storage Design -----------------------------------
+One process when considering data storage design is moving physical data to logical models; false; m.12
+a relational database is used in; data warehousing or multidimentional databases; m.12
+when converting a logical erd in to a physical data model; you dont need to specify primary and international keys; m.12
+even if you convert a database into 3NF its best practice to "denormalize" when; you want to access the data faster since the data is more connected; m.12
+The two ways to optimize a data storage is; storage Efficiency, and speed of access; m.12
