@@ -1,0 +1,113 @@
+#separator:Semicolon
+#html:true
+#tags column:3
+#columns: Question; Answer; Tags
+#deck: COMP1712 final
+#
+#----------------------------------------------------------------------------------
+#-------------------------------------- MODULES -----------------------------------
+#----------------------------------------------------------------------------------
+#
+#------------------------------------- Module #7 Normalization ----------------------------------------
+Funcional dependance, 18 18 18 18 18 AmberWave AmberWave AmberWave AmberWave AmberWave AmberWave etc; with the DETERMINANT project_num, we can find the proj_name; m.07
+emp_num -> (emp_name, job_class, charge_hour); this is an example of a dependant relationship; m.07
+2nf; removes partial dependancies; m.07
+3nf; removes transitive dependancies; m.07
+Once we have an ERD, we can be sure we have a good database structure;  False; m.07
+Our goal with normalization is to completely eliminate redundancy; False; m.07
+Some redundancies in a relational database is necessary; True; m.07
+Foreign keys in a relational database is an example of; necessary redundancy; m.07
+<img src="./ch7q5.png"></img><br/>The following tables shows; not a relational table; m.07
+In a relational table, when we say "attribute A defines B", it means; There is only one value for B for any given value of A; m.07
+In a functional dependence, the DETERMINANT is always a single attribute; false; m.07
+In a functional dependence, the DEPENDENT is always a single attribute; false; m.07
+Relational tables that have a single attribute primary key are immediately in 2NF; true; m.07
+Partial dependency is a form of functional dependency; true; m.07
+A transitive dependency is a form of partial dependency; false; m.07
+<img src="./ch7q12.png"></img><br/>How many non-prime attributes do you see in the following diagram?; 5; m.07
+A table in</br>2NF is also in</br>1NF is also in</br>2NF is also in; 1NF<br/>1NF<br/>2NF; m.07
+<img src="./ch7q14.png"></img><br/>The following table is in 1NF, if we normalize this into 2NF how many would we have in total?; 3; m.07
+<img src="./ch7q15.png"></img><br/>The following table is in 1NF, if we normalize this into 2NF how many would we have in total?; 3; m.07
+A table is in 1 Normal Form; if it does not contain attributes that have multiple values for a single instance; m.07
+
+#
+#------------------------------------- Module #8 Design Strategy ---------------------------------------
+If the expertise needed to build a system is not readily available, it is not a good reason to buy a software system; false; m.08
+During the design phase, the project team carefully considers the nonfunctional business requirements(performance, cultural and political); true; m.08
+Custom development is used when; the business is unique; m.08
+Outsourcing requires at least inhouse resources; true; m.08
+Another name for custom development; In-house development; m.08
+Building a system inhouse builds technical skill and functional knowledge that they wouldn't want to release to the public; true; m.08
+In the analysis phase, architecture decisions are made in "hardware and software specifications"; false they are in the design phase; m.08
+The system inputs and outputs what to show how the systems will be navigated; roadmap; m.08
+Outsourcing is used when; The business need is not the core of the business; m.08
+In a custom software case, all parts of the system need to be completely customized and scripted to the companys specifications including ancillary software; false; m.08
+Risks of Outsourcing; compromise confidential information; m.08
+#
+#------------------------------------- Module #9  Architecture Design ----------------------------------
+The major architectural components of a system is; hardware and software; m.09
+Maintability requirements can be defined as; expected business changes to which the system should be able to adapt; m.09
+How many advantages are client-server architecture known for; 4; m.09
+Software systems can be divided into how many basic functions; 4; m.09
+System integration requirements can be defined as; the extent to which the system will operate with other systems; m.09
+Forms of network connections include; atm and dsl; m.09
+A n tiered architecture is distinguished by; the number of specialized server computers; m.09
+Access control requirements would be like; customer service reps can modify customer files but not delete them; m.09
+The cost of development is associated with client based systems is; low; m.09
+What are the 3 advantages of client server; 1. they are scalable <br/> 2. they can support different types of systems <br/> 3. It is easy to separate different logic <br/> 4. Reliability; m.09
+#
+#------------------------------------- Module #10 Interface Design -------------------------------------
+Heuristic eval; trial and error experiementing learning; m.10
+Walk-through explaination; the project team presents the prototype; m.10
+Effectiveness; does the right thing, gets things done; m.10
+Efficiency; does it with minimal effort; m.10
+Satisfaction; makes u feel good and happy; m.10
+Transparent interface; interface that users don't even notice, does what they expect, intuitive and invisible. does not distract the user.; m.10
+usability; Effectiveness, Efficiency, and satisfaction; m.10
+Interface Evaluation techniques include; interative, walk-through, heuristic, and formal usability testing; m.10
+Research shows that in an ideal world a menu should; contain 5-7 items, and submenus should have no fewer than 5 items; m.10
+Headings should be what size? main text? and subheadings?; headings - 14 <br/> main text - 12 <br/> subheadings - 12 <br/>; m.10
+When designing navigation controls, things that are commonly assumed are; users have not read the manual, they have not attended training, do not have help readily on hand, and they have not read the documentation; m.10
+One study suggests that some variation would be appropriate in user interface design, why?; because if all forms look the same, it would be confusing to others; m.10
+What is used when all combinations of data is valid?; consistencty check; m.10
+If the density on a single page is too high what happens; it might not be as effective because a two-page (less dense) is preferred; m.10
+Whats a second level menu on a menu bar called; drop-down; m.10
+What defines the basic components on an interface and how they work together to provide functionality to users; interface STRUCTURE design; m.10
+To prevent mistakes its best to; label commands and actions appropriately, limit choices, gray out commands that cant be used, and create secondary menus when some choices are similar; m.10
+#
+#------------------------------------- Module #11 Program Design ----------------------------------------
+Structure charts show sequence; true; m.11
+Many logical DFDs will be changed into "ecrypted word processing documents" when physical DFDs are developed; m.11
+Structure charts are created with one attempt; false; m.11
+Analyists build these into structure charts; sequence, selection, and iteration; m.11
+First step in a "Physical data flow"; add implementation references; m.11
+Transaction structure contains a control module that helps call sub modules that frequently occur; true; m.11
+Human machine boundary is part of the human computer interface; false; m.11
+Its best to build a structure chart using; high cohesion; m.11
+Logical DFD; for business views of the system, no implementation details; m.11
+Physical DFDs; systems view, technical view of the system, references to the tech side, the format of information - like where are all the data flows etc. human interaction - like where is human intereaction required.; m.11
+Good program; easy to maintain, modular, and flexible; m.11
+Library modules; defined by two lines on the side; m.11
+#
+#------------------------------------- Module #12 Data Storage Design -----------------------------------
+One process when considering data storage design is moving physical data to logical models; false; m.12
+a relational database is used in; data warehousing or multidimentional databases; m.12
+when converting a logical erd in to a physical data model; you dont need to specify primary and international keys; m.12
+even if you convert a database into 3NF its best practice to "denormalize" when; you want to access the data faster since the data is more connected; m.12
+The two ways to optimize a data storage is; storage Efficiency, and speed of access; m.12
+Decision support systems use; data warehouses, data marts, aggregated data, and multidimentional databases; m.12
+Multidimensional Databases; used for datawarehousing, can be explored or aggregated quickly; m.12
+Two types of data storage; files, and databases; m.12
+Types of files; master files - store core information, look-up files - use for validation, transaction files - holds transactions, used for update master data, audit files - keep before and after images of data, history files - holds past transactions; m.12
+Databases; is a collection of files created by the database management system, many types: relational, multidem, nosql and obj etc etc; m.12
+Relational databases; has a primary key, other tables have foreign keys; referential integrety; m.12
+Concept for planning good performance; volumetrics; m.12
+in a checkout counter, when they scan a barcode; they use the transaction processing system; m.12
+Audit files; store the before and after of images; m.12
+Decision making systems just need; read data; m.12
+Indexing; similar to a library catalogue, list of points to access quickly; m.12
+1 to M relationship; M has the foreign key, and 1 has the primary key; m.12
+Referential integrity; ever reference of an entity has to be valid; m.12
+Foreign key; has to be null or valid; m.12
+Nulls; example of poor design, avoided as much as possible; m.12
+M to N relationship (many to many), a student and a class; accessed though a bridge entity
